@@ -2,6 +2,7 @@
 require_once(__DIR__ . '../oeuvres.php');
 include __DIR__ . '../header.php'; ?>
 
+<main>
 <article id="detail-oeuvre">
     <div id="img-oeuvre">
         <?php foreach ($oeuvres as $oeuvre) {
@@ -18,5 +19,6 @@ include __DIR__ . '../header.php'; ?>
 <?php }
         } ?>
 </article>
+</main>
 
 <?php include __DIR__ . '../footer.php'; ?>
